@@ -60,7 +60,7 @@ public class CustomerService {
         entity.setEmail(dto.getEmail());
         entity.setAddress(dto.getAddress());
         entity.setPhone(dto.getPhone());
-        entity.setId(dto.getAge());
+        entity.setAge(dto.getAge());
         customerRepository.persist(entity);
     }
 }
